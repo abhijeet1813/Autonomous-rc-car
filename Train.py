@@ -23,7 +23,7 @@ def train(x_values):
 
 def save_model(model):
     save_dir = os.getcwd()
-    model_name = 'keras_mnist.h5'
+    model_name = 'keras_model.h5'
     model_path = os.path.join(save_dir, model_name)
     model.save(model_path)
     print('Saved trained model at %s ' % model_path)
