@@ -1,8 +1,7 @@
 from convert_data_to_array import conv_images_to_array_train
 import numpy as np
 from keras import Sequential
-from keras.layers import Dense, Conv2D, Flatten
-from keras.layers import Dropout
+from keras.layers import Dense, Conv2D, Flatten, Dropout
 import os
 
 def train(x_values):
