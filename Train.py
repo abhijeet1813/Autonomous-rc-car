@@ -3,7 +3,6 @@ import numpy as np
 from keras import Sequential
 from keras.layers import Dense, Conv2D, Flatten
 from keras.layers import Dropout
-
 import os
 
 def train(x_values):
